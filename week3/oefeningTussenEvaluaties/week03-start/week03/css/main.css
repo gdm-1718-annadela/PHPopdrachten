@@ -1,0 +1,18 @@
+html { }
+body { background: #eee; font-family: helvetica, sans-serif; color:#333; line-height: 1.5em; }
+h1 { font-size: 2.5rem; color: hsl(199, 77%, 46%); }
+h1 span { display: inline-block; border-radius: 5px; background: rgba(0,0,0,.2); padding: 7px 20px; margin-top: 10px; white-space: nowrap; }
+a { text-decoration: underline; color: hsl(199, 77%, 46%); }
+a:hover { background: hsl(199, 77%, 35%); }
+h2 { font-size: 1.8rem; color: hsl(19, 77%, 46%); }
+section { max-width: 920px; margin: 0 auto 40px; background: #FFF; padding: 25px;  }
+nav { max-width: 970px; margin: 20px auto 0;
+display: flex; align-content: stretch; }
+nav a { width:16.6666%; text-align: center; display: block; text-decoration: none; padding: 15px 20px; border-left: solid 1px #fff;border-right: solid 1px #ccc;}
+nav a.active { background: #fff; color: #333; }
+nav a:first-child { border-left: none; }
+nav a:last-child { border-right: none; }
+.breadcrumb { color: #888; font-size: .9rem; margin-top: -20px; }
+.breadcrumb a { color: #888; }
+img.full { max-width: 100%; height: auto;}
+img.right { max-width: 40%; height: auto; float: right; margin: 0 0 20px 20px; }
